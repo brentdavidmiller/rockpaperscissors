@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock, Paper, Scissors</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="rpsredo.css"
+</head>
+<body>
+      <h1>Choose Your Weapon</h1>
+
+      <div class = "roundChoicesPlayer">
+        <div class ="playerChoiceText" id="rockChoicePlayer"><span></span></div>
+        <div class ="playerChoiceText" id="paperChoicePlayer"><span></span></div>
+        <div class ="playerChoiceText" id="scissorsChoicePlayer"><span></span></div>
+      </div>
+
+        <div id = "buttonArea">
+
+          <button class="Choice" id="Rock">
+            <!-- <img class ="btnImage" src = "./rpsAssets/rock.png"/> -->
+          </button>
+
+          <button class="Choice" id="Paper">
+            <!-- <img class ="btnImage" src = "./rpsAssets/paper.png"/> -->
+          </button>
+
+          <button class="Choice" id="Scissors">
+            <!-- <img class ="btnImage" src = "./rpsAssets/scissors.png"/> -->
+          </button>
+
+        </div>
+
+        <div class = "roundChoicesComputer">
+          <div class ="computerChoiceText" id="rockChoiceComputer"><span></span></div>
+          <div class ="computerChoiceText" id="paperChoiceComputer"><span></span></div>
+          <div class ="computerChoiceText" id="scissorsChoiceComputer"><span></span></div>
+        </div>
+
+        <div class="scores">
+          <div id="playerScore">Player Score: <span></span></div>
+          <div id="computerScore">Computer Score: <span></span></div>
+        </div>
+
+    <div id ="roundResult">Round Winner: <span></span></div>
+
+    <div id ="gameResult">Game Winner: <span></span></div>
+
+    <div id ="endArea">
+      <button id="End">Reset Game</button>
+    </div>
+
+
+  <script src="rpsredo.js"></script>
+</body>
+</html>
+
+
+<!--Ask why reset button is flashing on load and refresh-->

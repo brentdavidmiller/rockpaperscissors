@@ -1,0 +1,133 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: lightgrey;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#buttonArea {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.roundChoicesPlayer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.roundChoicesComputer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.choiceText {
+    border: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.playerChoiceText {
+    color: blue;
+    width: 100px;
+    text-align: center;
+}
+
+.computerChoiceText {
+    color: red;
+    width: 100px;
+    text-align: center;
+}
+
+.Choice {
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.Choice:hover {
+    transform: scale(1.1);
+}
+
+.btnImage {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#playerScore {
+    padding: 20px;
+    width: 300px;
+    font-size: 25px;
+}
+
+#computerScore {
+    padding: 20px;
+    width: 300px;
+    font-size: 25px;
+}
+
+.scores {
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+
+#roundResult {
+    font-size: 25px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+#gameResult {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    display: none;
+    font-weight: bold;
+}
+
+
+#endArea {
+    display: flex;
+    justify-content: center;
+}
+#End {
+    font-size: 30px;
+}
+
+
+#Rock {
+    background-image: url("./rpsAssets/rock.png");
+}
+
+#Paper {
+    background-image: url("./rpsAssets/paper.png");
+}
+
+#Scissors {
+    background-image: url("./rpsAssets/scissors.png");
+}
+
